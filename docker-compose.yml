@@ -5,4 +5,5 @@ services:
     image: fk0786/movies:latest
     ports:
       - 82:80
-    replicas: 3
+    deploy:
+      replicas: 3
