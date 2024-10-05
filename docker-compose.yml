@@ -12,7 +12,7 @@ services:
       - 81:80
     replicas: 3
   movies:
-    image: rahamshaik/paytmmsmovies:latest
+    image: fk0786/movies:latest
     ports:
       - 82:80
     replicas: 3
