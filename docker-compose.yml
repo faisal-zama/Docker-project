@@ -1,5 +1,5 @@
 ---
-version: "3"
+version: "3.8"
 services:
   movies:
     image: fk0786/movies:latest
@@ -7,3 +7,5 @@ services:
       - 82:80
     deploy:
       replicas: 3
+
+...
